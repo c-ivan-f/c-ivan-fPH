@@ -1,0 +1,14 @@
+.text-center{
+  background: var(--bs-body-color)
+}
+.lista-imagenes {
+  display: flex;
+  overflow-y: auto;
+  margin-top: 10px; }
+  .lista-imagenes img {
+    width: 100%;
+    object-fit: cover;
+    width: 800px;
+    height: 800px;
+    margin-right: 10px;
+    display: block; }
